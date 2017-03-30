@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Binder;
-import android.util.Log;
 import android.widget.AdapterView;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
@@ -90,21 +89,19 @@ public class DetailWidgetRemoteViewsService extends RemoteViewsService {
                         data == null || !data.moveToPosition(position)) {
                     return null;
                 }
+
                 RemoteViews views = new RemoteViews(getPackageName(), R.layout.widget_detail_list_item);
 
-                views.setTextViewText(R.id.symbol, data.getString(Contract.Quote.POSITION_SYMBOL));
-                views.setTextViewText(R.id.price, dollarFormat.format(data.getFloat(Contract.Quote.POSITION_PRICE)));
-
-                Log.d(TAG, "getViewAt symbol " + data.getString(Contract.Quote.POSITION_SYMBOL) +
-                        " price " + data.getFloat(Contract.Quote.POSITION_PRICE));
+                views.setTextViewText(R.id.widget_symbol, data.getString(Contract.Quote.POSITION_SYMBOL));
+                views.setTextViewText(R.id.widget_price, dollarFormat.format(data.getFloat(Contract.Quote.POSITION_PRICE)));
 
                 float rawAbsoluteChange = data.getFloat(Contract.Quote.POSITION_ABSOLUTE_CHANGE);
                 float percentageChange = data.getFloat(Contract.Quote.POSITION_PERCENTAGE_CHANGE);
 
                 if (rawAbsoluteChange > 0) {
-                    views.setImageViewResource(R.id.change, R.drawable.percent_change_pill_green);
+                    views.setInt(R.id.widget_change, "setBackgroundResource", R.drawable.percent_change_pill_green);
                 } else {
-                    views.setImageViewResource(R.id.change, R.drawable.percent_change_pill_red);
+                    views.setInt(R.id.widget_change, "setBackgroundResource", R.drawable.percent_change_pill_green);
                 }
 
                 String change = dollarFormatWithPlus.format(rawAbsoluteChange);
@@ -112,14 +109,14 @@ public class DetailWidgetRemoteViewsService extends RemoteViewsService {
 
                 if (PrefUtils.getDisplayMode(DetailWidgetRemoteViewsService.this)
                         .equals(DetailWidgetRemoteViewsService.this.getString(R.string.pref_display_mode_absolute_key))) {
-                    views.setTextViewText(R.id.change, change);
+                    views.setTextViewText(R.id.widget_change, change);
                 } else {
-                    views.setTextViewText(R.id.change, percentage);
+                    views.setTextViewText(R.id.widget_change, percentage);
                 }
 
-//                final Intent fillInIntent = new Intent();
-//                fillInIntent.putExtra("symbol", data.getString(Contract.Quote.POSITION_SYMBOL));
-//                views.setOnClickFillInIntent(R.id.widget_list_item, fillInIntent);
+                final Intent fillInIntent = new Intent();
+                fillInIntent.putExtra("symbol", data.getString(Contract.Quote.POSITION_SYMBOL));
+                views.setOnClickFillInIntent(R.id.widget_list_item, fillInIntent);
 
                 return views;
             }
