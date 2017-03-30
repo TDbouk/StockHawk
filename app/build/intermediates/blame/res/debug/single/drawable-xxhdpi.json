@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Programming-workspace\\android\\Udacity-Android\\StockHawk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_percentage.png",
+        "source": "D:\\Programming-workspace\\android\\Udacity-Android\\StockHawk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_percentage.png"
+    },
+    {
+        "merged": "D:\\Programming-workspace\\android\\Udacity-Android\\StockHawk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_dollar.png",
+        "source": "D:\\Programming-workspace\\android\\Udacity-Android\\StockHawk\\app\\src\\main\\res\\drawable-xxhdpi\\ic_dollar.png"
+    }
+]
