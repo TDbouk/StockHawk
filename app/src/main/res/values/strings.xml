@@ -34,6 +34,7 @@
 
     <string name="toast_stock_unavailable"> Stock %s doesn\'t exist.</string>
     <string name="add_stock"> Add a new Stock</string>
+    <string name="enter_stock_name"> Enter name of Stock</string>
 
     <!-- Widget -->
     <string name="title_widget_detail">StockHawk Widget</string>
