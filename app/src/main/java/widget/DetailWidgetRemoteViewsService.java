@@ -55,7 +55,7 @@ public class DetailWidgetRemoteViewsService extends RemoteViewsService {
                 if (data != null) {
                     data.close();
                 }
-                
+
                 // Content Provider is not exported to launcher doesn't have direct access to it.
                 final long identityToken = Binder.clearCallingIdentity();
                 Uri stockUri = Contract.Quote.URI;
