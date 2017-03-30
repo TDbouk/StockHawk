@@ -1,4 +1,0 @@
-#Fri Mar 24 06:28:03 EET 2017
-base.0=D\:\\Programming-workspace\\android\\Udacity-Android\\StockHawk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
-renamed.0=classes.dex
-file.0=D\:\\Programming-workspace\\android\\Udacity-Android\\StockHawk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex
