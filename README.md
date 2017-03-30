@@ -7,6 +7,6 @@ Check out Udacity's [Advanced Android App Development](https://www.udacity.com/c
 Requiremnts: 
 1. Add a collection widget that shows a list of stocks.
 2. Create a detail view for each stoch that plots its value over time in a chart.
-3. Support layout mirroring, content description, handle untranslatable strings.
+3. Support layout mirroring, content description, and handle untranslatable strings.
 4. Handle error case when fetching data from a remote API.
 
