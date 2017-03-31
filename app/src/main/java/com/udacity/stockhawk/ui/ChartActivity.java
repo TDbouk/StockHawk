@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
 
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.AxisBase;
@@ -26,6 +27,9 @@ public class ChartActivity extends AppCompatActivity {
 
     @BindView(R.id.chart)
     LineChart lineChart;
+
+    @BindView(R.id.tv_yaxis_label)
+    TextView yAxisLabel;
 
     String symbol;
     String history;
@@ -50,6 +54,10 @@ public class ChartActivity extends AppCompatActivity {
             }
 
             if (!history.isEmpty()) {
+//                RotateAnimation rotate = (RotateAnimation) AnimationUtils.loadAnimation(this, R.anim.rotate);
+//                rotate.setFillAfter(true); //For the textview to remain at the same place after the rotation
+//                yAxisLabel.setAnimation(rotate);
+
                 List<Entry> entries = new ArrayList<>();
                 String hist[] = history.split("\n");
                 ArrayList<String> xLabels = new ArrayList<>();
@@ -77,6 +85,7 @@ public class ChartActivity extends AppCompatActivity {
 
                 // customize line chart
                 lineChart.getAxisLeft().setTextColor(Color.WHITE);
+                lineChart.getAxisRight().setTextColor(Color.WHITE);
                 lineChart.getXAxis().setTextColor(Color.WHITE);
                 lineChart.getLegend().setTextColor(Color.WHITE);
                 lineChart.getDescription().setTextColor(Color.WHITE);

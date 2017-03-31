@@ -12,10 +12,10 @@
     <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
     <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
 
-    <string name="default_stocks_yahoo">YHOO</string>
-    <string name="default_stocks_apple">AAPL</string>
-    <string name="default_stocks_microsoft">MSFT</string>
-    <string name="default_stocks_facebook">FB</string>
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
 
 
     <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
@@ -35,8 +35,9 @@
     <string name="toast_stock_unavailable"> Stock %s doesn\'t exist.</string>
     <string name="add_stock"> Add a new Stock</string>
     <string name="enter_stock_name"> Enter name of Stock</string>
+    <string name="stock_currency"> USD</string>
 
     <!-- Widget -->
-    <string name="title_widget_detail">StockHawk Widget</string>
+    <string name="title_widget_detail" translatable="false">StockHawk Widget</string>
     <string name="empty_quotes_list">No Quotes Data Available</string>
 </resources>
