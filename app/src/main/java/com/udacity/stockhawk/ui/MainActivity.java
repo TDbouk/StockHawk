@@ -8,6 +8,7 @@ import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                     swipeRefreshLayout.setRefreshing(false);
                     PrefUtils.removeStock(context, symbol);
                     String message = getString(R.string.toast_stock_unavailable, symbol);
-                    Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
+                    Snackbar.make(findViewById(R.id.swipe_refresh), message, Snackbar.LENGTH_SHORT).show();
                 }
             }
         }
