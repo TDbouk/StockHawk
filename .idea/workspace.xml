@@ -10,16 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b2f7d7-cf82-431b-8f91-a81924f5c3f1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-31-07-08-22-557.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-04-05-44-54-184.rawproto" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/add_stock_dialog.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_stock_dialog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_quote.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_quote.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chart.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chart.xml" />
     </list>
     <ignored path="StockHawk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +56,18 @@
                 <option name="myItemId" value="StockHawk" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
+            </PATH>
+            <PATH>
               <PATH_ELEMENT>
-                <option name="myItemId" value=":app" />
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="StockHawk" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="StockHawk" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
               </PATH_ELEMENT>
             </PATH>
@@ -72,6 +79,36 @@
               <PATH_ELEMENT>
                 <option name="myItemId" value="StockHawk" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="StockHawk" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="StockHawk" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="StockHawk" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="other" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
               </PATH_ELEMENT>
             </PATH>
           </tree_state>
@@ -148,7 +185,7 @@
             <state relative-caret-position="264">
               <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
-                <element signature="e#498#522#0" expanded="true" />
+                <element signature="e#571#595#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,9 +197,21 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="660">
               <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerticalTextView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/VerticalTextView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,8 +248,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile_vertical" />
-        <option value="Class" />
         <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -2137,9 +2186,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/ChartActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item_quote.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/add_stock_dialog.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chart.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/VerticalTextView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chart.xml" />
       </list>
     </option>
   </component>
@@ -2340,11 +2390,29 @@
       <recent name="com.udacity.stockhawk.ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StockHawk:app [clean]">
+  <component name="RunManager" selected="Gradle.StockHawk [clean]">
     <configuration default="false" name="StockHawk:app [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="StockHawk [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -2645,13 +2713,15 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
       <item index="1" class="java.lang.String" itemvalue="Gradle.StockHawk:app [clean]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.StockHawk [clean]" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.StockHawk:app [clean]" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.StockHawk [clean]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.StockHawk:app [clean]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -2687,7 +2757,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -2698,14 +2768,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43529412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24812031" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12620838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12620838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2775,7 +2845,7 @@
         <state relative-caret-position="154">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
-            <element signature="e#498#522#0" expanded="true" />
+            <element signature="e#571#595#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2815,7 +2885,7 @@
         <state relative-caret-position="132">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
           <folding>
-            <element signature="e#498#522#0" expanded="true" />
+            <element signature="e#571#595#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3163,19 +3233,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chart.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#498#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -3187,9 +3244,32 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chart.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#571#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/VerticalTextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/stockhawk/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="660">
           <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding />
         </state>

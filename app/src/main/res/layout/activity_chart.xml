@@ -4,13 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
-    <TextView
+    <com.udacity.stockhawk.ui.VerticalTextView
         android:id="@+id/tv_yaxis_label"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:gravity="bottom|center"
         android:paddingEnd="5dp"
         android:paddingStart="5dp"
+        android:paddingTop="5dp"
         android:text="@string/stock_currency"
         android:textColor="@android:color/white" />
 
