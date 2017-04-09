@@ -54,9 +54,6 @@ public class ChartActivity extends AppCompatActivity {
             }
 
             if (!history.isEmpty()) {
-//                RotateAnimation rotate = (RotateAnimation) AnimationUtils.loadAnimation(this, R.anim.rotate);
-//                rotate.setFillAfter(true); //For the textview to remain at the same place after the rotation
-//                yAxisLabel.setAnimation(rotate);
 
                 List<Entry> entries = new ArrayList<>();
                 String hist[] = history.split("\n");

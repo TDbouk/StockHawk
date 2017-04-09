@@ -106,7 +106,6 @@ public final class QuoteSyncJob {
                 quoteCV.put(Contract.Quote.COLUMN_PERCENTAGE_CHANGE, percentChange);
                 quoteCV.put(Contract.Quote.COLUMN_ABSOLUTE_CHANGE, change);
 
-
                 quoteCV.put(Contract.Quote.COLUMN_HISTORY, historyBuilder.toString());
 
                 quoteCVs.add(quoteCV);
@@ -122,7 +121,7 @@ public final class QuoteSyncJob {
                     .setPackage(context.getPackageName());
             context.sendBroadcast(dataUpdatedIntent);
 
-        } catch (IOException exception) {
+        } catch (IOException | StringIndexOutOfBoundsException exception) {
             Timber.e(exception, "Error fetching stock quotes");
         }
     }
