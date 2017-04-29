@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.TextView;
 
 import com.github.mikephil.charting.charts.LineChart;
@@ -52,6 +53,7 @@ public class ChartActivity extends AppCompatActivity {
                 history = c.getString(c.getColumnIndex(Contract.Quote.COLUMN_HISTORY));
                 c.close();
             }
+
 
             if (!history.isEmpty()) {
 
