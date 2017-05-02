@@ -2,10 +2,14 @@
 
 An Android app that fetches a list of stocks from Yahoo Finance API. The app allows the user to add as many stocks as desired. The user can view a plotted graph of the stocks value over a period of time. The app also includes a widget making it easy for the user to keep an eye on his favorites stocks. 
 
+## Screenshots
+
+![screenshot 1](screenshots/stockhawk.png)
+
 ## Getting Started
 The below instruction will get you a copy of the project up and running on your machine for development and testing purposes.
 ### Prerequisites
-Android Studio including SDK version 25 and build tools version 25.0.2.
+Android Studio including SDK version 25 and build tools version 25.0.2.  
 You can always update to the latest versions. 
 
 ### Installing and Deployment
@@ -16,6 +20,12 @@ You can always update to the latest versions.
 ### Built With
 [Android Studio](https://developer.android.com/studio/index.html) - The IDE used  
 [Gradle](https://gradle.org/) - Dependency Management
+
+### Libraries Used
+[MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)  
+[butterknife](http://jakewharton.github.io/butterknife/)  
+[timber](https://github.com/JakeWharton/timber)  
+[YahooFinanceAPI](https://github.com/sstrickx/yahoofinance-api)  
 
 ### Contributing 
 Pull requests are gracefully accepted. 
