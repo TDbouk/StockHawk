@@ -99,7 +99,7 @@ public class DetailWidgetRemoteViewsService extends RemoteViewsService {
                 if (rawAbsoluteChange > 0) {
                     views.setInt(R.id.widget_change, "setBackgroundResource", R.drawable.percent_change_pill_green);
                 } else {
-                    views.setInt(R.id.widget_change, "setBackgroundResource", R.drawable.percent_change_pill_green);
+                    views.setInt(R.id.widget_change, "setBackgroundResource", R.drawable.percent_change_pill_red);
                 }
 
                 String change = dollarFormatWithPlus.format(rawAbsoluteChange);
